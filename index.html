@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
+    <title>undergroung</title>
+</head>
+<header>
+    <h2 class="logo">Pocket RT</h2>
+    <ul class="nav_links">
+        <li>
+            <a href="index.html">Quick VENT</a>
+        </li>
+        <li>
+            <a href="hometwo.html">Vent Managment</a>
+        </li>
+        <li>
+            <a href="#">Unkown</a>
+        </li>
+    </ul>
+</header>
+<h2 id="h1">Quick Start VENT Setings</h2>
+<h2 id="h2">Volume Control</h2>
+
+
+<body>
+    <div id="error"></div>
+
+    <!-- Initail Vent Settings page -->
+
+    <div id="container">
+        <div class="mvfbutton">
+            <button id="maleBtn">Male</button>
+            <button id="femaleBtn">Female</button>
+        </div>
+        <form action="" method="GET" id="form">
+            <div>
+                <label for="height">patient height  <input type="text" name="ht" id="ht" size="7px"> cm</label>
+            </div>
+            <div>
+                <label for="weight">patient weight  <input type="text" name="weight" id="wt" size="7px"> Kg</label>
+
+            </div>
+            <button type="submit">Get Settings</button>
+        </form>
+        <div id="initSet">
+            <ul>
+                <li id="inTitle"></li>
+                <li id="inVt">Tidal Volume</li>
+                <li id="inRr">Respiratory Rate</li>
+                <li id="inTi">Inspiratory Time</li>
+                <li id="infio">FiO2</li>
+                <li id="inpeep">PEEP</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end of intial VENT settings HTML-->
+
+
+
+    <!--   <br>
+   <button id="btn ">test</button><br>
+    <button id="btnTwo ">two</button>-->
+
+
+    <script src="app.js "></script>
+
+</body>
+
+</html>

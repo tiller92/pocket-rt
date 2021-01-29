@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ventilator Management</title>
+    <header>
+        <h2 class="logo">Pocket RT</h2>
+        <ul class="nav_links">
+            <li>
+                <a href="index.html">Quick VENT</a>
+            </li>
+            <li>
+                <a href="hometwo.html">Vent Managment</a>
+            </li>
+            <li>
+                <a href="#">Unkown</a>
+            </li>
+        </ul>
+    </header>
+    <h2 id="h1">Ventilator Management</h1>
+        <h2 id="h2">Volume control</h2>
+
+</head>
+
+<body>
+    <h2 id="h2">Insert Patient Current Information</h2>
+    <div class="currentSetButtons">
+        <button class="currentSetButtonsI" id="airwayProtection">Airway protection</button>
+        <button class="currentSetButtonsI">A.R.D.S</button>
+        <button class="currentSetButtonsI">A.E.C.O.P.D</button>
+    </div>
+    <div class="pagetwocontainer">
+        <form action="" method="GET" id="getTwo">
+            <div class="currentSet">
+                <ul>
+                    <li>
+                        <label id="curph" for="ph">PH <input type="text" name="cVt" id="cph" size="5px"></label>
+                    </li>
+                    <li>
+                        <label id="curco" for="co2">PCO2 <input type="text" name="rr;" id="cco" size="5px"></label>
+                    </li>
+                    <li>
+                        <label id="curpo" for="pao2">PaO2 <input type="text" name="ti" id="cpao" size="5px"></label>
+                    </li>
+                    <li>
+                        <label id="curhco" for="hco3">HCO3 <input type="text" name="peeep" id="chco" size="5px"></label>
+                    </li>
+                </ul>
+            </div>
+
+            <!--same as home page list items here you need to change the js and the css to match still 
+            1. remove the li words and connect the lis to the js for page two
+            2. add the pateint info into the current js where needed
+            3. all syou should need is the patient label and buttions -->
+            <div class="currentSet">
+                <div class="">
+                    <button type="button" id="maleBtn">Male</button>
+                    <button type="button" id="femaleBtn">Female</button>
+                </div>
+                <form action="" method="GET" id="form">
+                    <div>
+                        <label for="height">patient height  <input type="text" name="ht" id="ht" size="7px"> cm</label>
+                    </div>
+                    <div>
+                        <label for="weight">patient weight  <input type="text" name="weight" id="wt" size="7px"> Kg</label>
+
+                    </div>
+
+
+
+            </div>
+            <!--end of home page code that was copied over -->
+            <div class="currentSet">
+                <ul class="">
+                    <li>
+                        <label for="vt">Tidal Volume<input type="text" name="cVt" id="cVt" size="5px">ml</label>
+                    </li>
+                    <li>
+                        <label for="rr">Respiratory Rate<input type="text" name="rr;" id="cRr" size="5px"></label>
+                    </li>
+                    <li>
+                        <label for="ti">Inspiratory Time<input type="text" name="ti" id="cTi" size="5px"></label>
+                    </li>
+                    <li>
+                        <label for="peep">PEEP<input type="text" name="peeep" id="cPeep" size="5px"></label>
+                    </li>
+                    <li>
+                        <label for="fio2">FIO2<input type="text" name="fio2" id="cFio" size="5px"></label>
+                    </li>
+                    <li>
+                        <label for="pPeak" id="urPpeak">pPeak <input type="text" id="curPpeak" size="5px"></label>
+                    </li>
+                    <li>
+                        <label for="pPlat" id="urPplat">pPlat <input type="text"  id="curPplat" size="5px"></label>
+                    </li>
+                    <li>
+                        <label for="curAutoPeep" id="curAutopeep">AutoPeep <input type="text" id="curAutoPeep" size="5px"></label>
+                    </li>
+                </ul>
+
+
+                <button type="submit" id="cursubmit">Get Settings</button>
+            </div>
+            </form>
+            <!-- this the li for new settings-->
+            <ul class="">
+                <li id="pressureWarningPeak"></li>
+                <li id="pressureWarningPlat"></li>
+                <li id="newTidal"></li>
+                <li id="newResp"></li>
+                <li id="newTi"></li>
+                <li id="newPeep"></li>
+                <li id="newFio"></li>
+            </ul>
+
+
+
+
+            <script src="ventadjustment.js"></script>
+
+
+</body>
+
+</html>

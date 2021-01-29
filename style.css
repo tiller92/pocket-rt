@@ -1,0 +1,115 @@
+    * {
+        background-color: rgb(87, 112, 255);
+    }
+    
+    #container {
+        margin: auto;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+    }
+    
+    #container button {
+        font-family: 'Roboto Mono', monospace;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px, 10px, 10px, 10px;
+        color: white;
+        background-color: black;
+    }
+    
+    #h1 {
+        text-align: center;
+        margin: auto;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    #h2 {
+        text-align: center;
+        margin: auto;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    #homeTwo {
+        position: absolute;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
+        border: 1px, black;
+    }
+    
+    #initSet ul {
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+    }
+    
+    .nav_links,
+    a {
+        font-family: 'Roboto Mono', monospace;
+        color: whitesmoke;
+        text-decoration: none;
+        list-style: none;
+        margin: 5px;
+        font-size: 12px;
+    }
+    
+    .logo {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4rem;
+        color: whitesmoke;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav_links,
+    li,
+    a {
+        transition: all .3s ease 0s;
+    }
+    
+    .nav_links li,
+    a:hover {
+        color: royalblue
+    }
+    
+    .currentSet {
+        display: inline-block;
+        box-sizing: border-box;
+        height: 50%;
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        color: whitesmoke;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-top: 10px;
+        font-size: 12px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    .currentSetButtons {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .currentSetButtonsI {
+        text-align: center;
+        margin: auto;
+        width: 5.5rem;
+        height: 3em;
+        color: whitesmoke;
+        background-color: black;
+    }
+    
+    #newSet,
+    li {
+        list-style: none;
+        font-family: 'Roboto Mono', monospace;
+    }
